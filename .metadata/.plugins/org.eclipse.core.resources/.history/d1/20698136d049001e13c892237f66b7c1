@@ -93,12 +93,7 @@ public class FormAutomation {
 	    uploadPicture.sendKeys("/Users/arsalan.khalid/Desktop/i1.jpg");
 	    currentAddress.sendKeys("xyz");
 	    
-	    Thread.sleep(10000);
-	    
-	    driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-	    
 	    ex1.executeScript("arguments[0].click()", submitButton);
-	    Thread.sleep(10000);
 	    
 	    boolean textFound = false;  
 	    try {
@@ -117,8 +112,6 @@ public class FormAutomation {
 		}
 	   
 	    finally {
-	    	
-	    	driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 	       driver.quit();
 	    }
 	   
