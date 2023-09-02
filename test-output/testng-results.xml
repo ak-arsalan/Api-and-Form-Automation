@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-03T01:03:03 PKT" name="Default suite" finished-at="2023-09-03T01:03:07 PKT" duration-ms="4141">
+    <groups>
+    </groups>
+    <test started-at="2023-09-03T01:03:03 PKT" name="Default test" finished-at="2023-09-03T01:03:07 PKT" duration-ms="4141">
+      <class name="ApiCalls.ApiCalls">
+        <test-method signature="delete_call()[pri:0, instance:ApiCalls.ApiCalls@73e22a3d]" started-at="2023-09-03T01:03:03 PKT" name="delete_call" finished-at="2023-09-03T01:03:05 PKT" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_call -->
+        <test-method signature="get_call()[pri:0, instance:ApiCalls.ApiCalls@73e22a3d]" started-at="2023-09-03T01:03:05 PKT" name="get_call" finished-at="2023-09-03T01:03:06 PKT" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_call -->
+        <test-method signature="patch_call()[pri:0, instance:ApiCalls.ApiCalls@73e22a3d]" started-at="2023-09-03T01:03:06 PKT" name="patch_call" finished-at="2023-09-03T01:03:06 PKT" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch_call -->
+        <test-method signature="post_call()[pri:0, instance:ApiCalls.ApiCalls@73e22a3d]" started-at="2023-09-03T01:03:06 PKT" name="post_call" finished-at="2023-09-03T01:03:06 PKT" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_call -->
+        <test-method signature="put_call()[pri:0, instance:ApiCalls.ApiCalls@73e22a3d]" started-at="2023-09-03T01:03:06 PKT" name="put_call" finished-at="2023-09-03T01:03:07 PKT" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_call -->
+      </class> <!-- ApiCalls.ApiCalls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
