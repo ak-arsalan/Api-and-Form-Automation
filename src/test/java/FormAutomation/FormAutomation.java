@@ -26,10 +26,6 @@ public class FormAutomation {
     @BeforeClass
     public void setUp() {
         
-    	//System.setProperty("webdriver.chrome.driver","/Users/arsalan.khalid/Downloads/chrome-mac-x64/Google Chrome for Testing.app");
-    	
-    	//WebDriverManager.chromedriver().clearDriverCache().setup();
-    	 // Set up the wWebDriverManager for chrome driver
         WebDriverManager.chromedriver().setup();
         // Create the driver object
         driver = new ChromeDriver();
@@ -112,13 +108,10 @@ public class FormAutomation {
 	    
 	    }
 		catch (Exception e) {
-		    // Handle exceptions
-		  //  e.printStackTrace();
+		  e.printStackTrace();
 		}
 	   
 	    finally {
-	    	
-	    	driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 	       driver.quit();
 	    }
 	   
