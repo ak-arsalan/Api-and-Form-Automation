@@ -45,9 +45,6 @@ public class ApiCalls {
 			request.put("name", "ak");
 			request.put("job", "QA");
 			
-			
-		//	System.out.println(request.toJSONString());
-			
 			baseURI = "https://reqres.in/api";
 			
 			System.out.println("\n\n\n This is Post Call");
@@ -66,9 +63,6 @@ public class ApiCalls {
 			request.put("name", "ak");
 			request.put("job", "QA");
 			
-			
-			//System.out.println(request.toJSONString());
-			
 			baseURI = "https://reqres.in/api";
 			
 			System.out.println("\n\n\nThis is Put Call");
@@ -78,7 +72,7 @@ public class ApiCalls {
 			
 		}
 		
-	@Test
+	    @Test
 		
 		public void patch_call() {
 			
@@ -96,19 +90,19 @@ public class ApiCalls {
 			
 		}
 
-	@Test
-	public void delete_call() {
-		
-		JSONObject request = new JSONObject();
+		@Test
+		public void delete_call() {
 			
-			
-			baseURI = "https://reqres.in/api";
-			
-			System.out.println("\n\n\n This is Delete Call");
-			
-			given().body(request.toJSONString()).when().delete("users/2").then().statusCode(204).log().all();
-			
-			
+			JSONObject request = new JSONObject();
+				
+				
+				baseURI = "https://reqres.in/api";
+				
+				System.out.println("\n\n\n This is Delete Call");
+				
+				given().body(request.toJSONString()).when().delete("users/2").then().statusCode(204).log().all();
+				
+				
 		}
 
 	}
